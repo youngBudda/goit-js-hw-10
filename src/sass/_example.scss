@@ -1,12 +1,3 @@
-.cat-info {
-  display: flex;
-}
-.animal_img {
-  object-fit: cover;
-  width: 300px;
-  height: auto;
-}
-
 .loader {
   display: none;
 }
@@ -22,7 +13,6 @@
 
 .breed-select.visible {
   display: block;
-  /* Add your desired styles for the visible breed select */
 }
 
 .cat-info {
@@ -30,17 +20,7 @@
 }
 
 .cat-info.visible {
-  display: block;
-  /* Add your desired styles for the visible cat info */
-}
-
-.example .background {
-  height: 240px;
-  // ❗️❗️❗️ The path to images from a SASS file
-  // is always the same as from the css folder.
-  background-image: url('../images/logo.png');
-  background-size: cover;
-  background-position: center;
+  display: flex;
 }
 
 .error {
@@ -49,5 +29,18 @@
 
 .error.visible {
   display: block;
-  /* Add your desired styles for the visible error message */
+}
+
+.cat-info {
+  margin-left: 20px;
+}
+
+.information {
+  width: 400px;
+  margin-left: 30px;
+}
+.animal_img {
+  object-fit: cover;
+  width: 300px;
+  height: auto;
 }
